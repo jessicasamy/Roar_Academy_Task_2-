@@ -1,0 +1,45 @@
+# ===========================
+# STM32CubeIDE Build Folders
+# ===========================
+Debug/
+Release/
+.build/
+*.o
+*.d
+*.elf
+*.map
+*.lst
+
+# ===========================
+# Hex / Binary Files
+# ===========================
+# Ignore auto-generated .hex in build folders
+*.hex
+
+# But keep hex files if stored manually in this folder
+!Proteus_Sim/*.hex
+
+# ===========================
+# IDE / Metadata Files
+# ===========================
+.settings/
+.metadata/
+*.launch
+*.cproject
+*.project
+
+# ===========================
+# Proteus Backup Files
+# ===========================
+*.pdsbak
+*.pdschk
+
+# ===========================
+# OS & Editor Junk
+# ===========================
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+*~
